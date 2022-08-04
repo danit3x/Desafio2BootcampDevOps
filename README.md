@@ -36,6 +36,8 @@ por teclado o comando.
 1-Se utiliza comando 'touch archiv{1,2,3,4,5,6,7,8,9}.txt' para crear multiples archivos.
   Se remueven permisos con 'chmod a-rwx archiv*'.
 
-2-Se modifican los permisos segun requerimiento. usuario 'u', grupo 'g', otros 'o' y todos 'a'.
+2-Se le asignan los permisos segun requerimiento. 
+Leer 'r', Escribir 'w', Ejecutar 'x'.
+Usuario 'u', Grupo 'g', Otros 'o' y Todos 'a'.
 
-3-
+3-Se le modifican permisos a los archivos. Se comprueba que el archiv8 al querer agregarlo al stage de git larga error de Permiso denegado.
