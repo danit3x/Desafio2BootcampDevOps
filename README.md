@@ -28,3 +28,14 @@ encontre dos formas de resolucion:
 En este ejercicio igual que el numero 3, se puede realizar ingreso de parametros
 por teclado o comando.
 ./Ejercicio4Parametro.sh url palabraAbuscar
+
+## Reto 2
+
+### Ejercicio 1
+
+1-Se utiliza comando 'touch archiv{1,2,3,4,5,6,7,8,9}.txt' para crear multiples archivos.
+  Se remueven permisos con 'chmod a-rwx archiv*'.
+
+2-Se modifican los permisos segun requerimiento. usuario 'u', grupo 'g', otros 'o' y todos 'a'.
+
+3-
