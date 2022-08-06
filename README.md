@@ -54,3 +54,18 @@ Usuario 'u', Grupo 'g', Otros 'o' y Todos 'a'.
 4- Para verificar que esten correctamente modificados los permisos de archivos, ejecutar el comando 'ls -l' para ver 
 que figure de esta forma | -rwx------ | los permisos del archivo.
 En caso contrario utilizar el comando 'chmod u=rwx,go= NombreDeArchivo'
+
+## Reto 3
+
+cd /home/user
+mkdir nueva_carpeta
+cd nueva_carpeta/
+touch archivo_nuevo.txt
+mv archivo_nuevo.txt archivo_viejo.txt
+echo -n"Nueva linea de texto"
+chmod a=rwx archivo_viejo.txt
+cd ..
+ln -s /home/danito/nueva_carpeta/archivo_viejo.txt enlace.ln
+rm -r nueva_carpeta
+
+Al ingresar a enlace.ln despues de eliminar el directorio se abre archivo en blanco sin la linea quese habia agregado.
