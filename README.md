@@ -41,3 +41,16 @@ Leer 'r', Escribir 'w', Ejecutar 'x'.
 Usuario 'u', Grupo 'g', Otros 'o' y Todos 'a'.
 
 3-Se le modifican permisos a los archivos. Se comprueba que el archiv8 al querer agregarlo al stage de git larga error de Permiso denegado.
+
+
+## Reto 2
+
+1- Una medida a implementar es la modificacion de permisos de lectura, escritura y ejecucion en sistemas linux.
+
+2- Se dejaran unicamente permisos para el usuario(propietario) del archivo. Se eliminaran todos los demas permisos de grupo y otros.
+
+3- Los tipos de permisos son Lectura(read), Escritura(write), y ejecucion(execution).
+
+4- Para verificar que esten correctamente modificados los permisos de archivos, ejecutar el comando 'ls -l' para ver 
+que figure de esta forma | -rwx------ | los permisos del archivo.
+En caso contrario utilizar el comando 'chmod u=rwx,go= NombreDeArchivo'
